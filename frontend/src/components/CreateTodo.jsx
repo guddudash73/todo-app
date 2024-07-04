@@ -31,7 +31,7 @@ export function CreateTodo() {
                 description: description
             }),
             headers: {
-                "contentType":"application/json"
+                "content-type":"application/json"
             }
         })
 
